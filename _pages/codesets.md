@@ -5,7 +5,7 @@ title: "Search the Codesets in the Codeset Library"
 author_profile: true
 --- 
 <script type="text/javascript">
-$.get('/_data/temp.csv', function(data) {
+$.get(site.data.temp, function(data) {
 var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
 var head = data.split("\n");
 for(var i=0;i<1;i++){
