@@ -4,15 +4,44 @@ permalink: /about/
 header: 
   image: "/images/pedsnet_full_logo.png"
 ---
-<script>
-  CsvToHtmlTable.init({
-    csv_path: '/data/Health Clinics in Chicago.csv', 
-    element: 'table-container', 
-    allow_download: true,
-    csv_options: {separator: ',', delimiter: '"'},
-    datatables_options: {"paging": false}
-  });
+<script type="text/javascript">
+    function Upload() {
+        var fileUpload = document.getElementById("fileUpload");
+        var regex = /^([a-zA-Z0-9\s_\\.\-:])+(.csv|.txt)$/;
+        if (regex.test(fileUpload.value.toLowerCase())) {
+            if (typeof (FileReader) != "undefined") {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    var table = document.createElement("table");
+                    var rows = e.target.result.split("\n");
+                    for (var i = 0; i < rows.length; i++) {
+                        var cells = rows[i].split(",");
+                        if (cells.length > 1) {
+                            var row = table.insertRow(-1);
+                            for (var j = 0; j < cells.length; j++) {
+                                var cell = row.insertCell(-1);
+                                cell.innerHTML = cells[j];
+                            }
+                        }
+                    }
+                    var dvCSV = document.getElementById("dvCSV");
+                    dvCSV.innerHTML = "";
+                    dvCSV.appendChild(table);
+                }
+                reader.readAsText(fileUpload.files[0]);
+            } else {
+                alert("This browser does not support HTML5.");
+            }
+        } else {
+            alert("Please upload a valid CSV file.");
+        }
+    }
 </script>
+<input type="file" id="fileUpload" />
+<input type="button" id="upload" value="Upload" onclick="Upload()" />
+<hr />
+<div id="dvCSV">
+</div>
 <!-- <div id="map-canvas" style="width:100%; height:650px"></div>
 
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
