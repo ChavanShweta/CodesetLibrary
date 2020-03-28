@@ -8,26 +8,19 @@ excerpt: >
   Codeset search and get more information.<br />
 feature_row:
   - image_path: /images/search_codeset.png
-    alt: "Search Codesets"
+    alt: "search_codeset"
     title: "Search Codesets"
     excerpt: "Study related codesets are stored here"
     url: "/codesets/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /images/pedsnet_logo.svg
-    alt: "PEDSnet Info"
+    alt: "pedsnet_logo"
     title: "PEDSnet Info"
     excerpt: "Know More about PEDSnet"
     url: "https://pedsnet.org"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /images/pedsnet_logo.svg
-    alt: "Studies"
-    title: "Studies"
-    excerpt: "Know more about studies"
-    url: "/home/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Learn more"   
 ---
 
 {% include feature_row %}
