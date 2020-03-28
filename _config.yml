@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "PEDSnet"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/pedsnet_logo.svg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Peadiatric Healthcare Learning System"
   location         : "Somewhere"
   email            :
