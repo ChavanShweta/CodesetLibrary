@@ -1,7 +1,9 @@
 # main links
 main:
   - title: "PEDSnet"
-    url: https://pedsnet.org/
+    url: "https://pedsnet.org/"
+    header:
+      image: "/images/pedsnet_qr.png"
   - title: "About"
      url: /about/
   - title: "Codesets Search"
