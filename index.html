@@ -31,7 +31,11 @@ author_profile: true
       <div id='table-container'></div>
 
     </div><!-- /.container -->
-
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
+        crossorigin="anonymous">
+    </script>
+    <script src="src/jquery.csv.js"></script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -52,7 +56,7 @@ author_profile: true
           return "";
       }
       CsvToHtmlTable.init({
-        csv_path: 'data/fatty_acid_profiles.csv',
+        csv_path: '/data/fatty_acid_profiles.csv',
         element: 'table-container', 
         allow_download: true,
         csv_options: {separator: ','},
