@@ -4,7 +4,7 @@ permalink: /search-codesets/
 title:"Search the Codesets in the Codeset Library"
 author_profile: true
 header:
-	image: "/images/pedsnet_qr.png"
+  image: "/images/pedsnet_qr.png"
 ---
 {% include base_path %}
 {% include group_by_group collection=site.posts field="tags" %}
