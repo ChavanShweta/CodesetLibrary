@@ -8,17 +8,17 @@ excerpt: >
   Codeset search and get more information.<br />
 feature_row:
   - image_path: /images/search_codeset.png
-    alt: "search_codeset"
+    alt: "customizable"
     title: "Search Codesets"
     excerpt: "Study related codesets are stored here"
     url: "/codesets/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /images/pedsnet_logo.svg
-    alt: "pedsnet_logo"
+    alt: "fully responsive"
     title: "PEDSnet Info"
     excerpt: "Know More about PEDSnet"
-    url: "https://pedsnet.org"
+    url: https://pedsnet.org
     btn_class: "btn--primary"
     btn_label: "Learn more"   
 ---
