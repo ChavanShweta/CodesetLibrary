@@ -99,7 +99,7 @@ author:
   location         : "Children's Hospital Of Philadelphia"
   email            :
   links:
-    - label: "PEDSnetDCC.chop.edu"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
     - label: "Website"
@@ -279,8 +279,7 @@ defaults:
       comments: # true
       share: true
       related: true
-
-# pages
+  # pages
 - scope:
     path: ""
     type: pages
