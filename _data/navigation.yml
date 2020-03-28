@@ -1,10 +1,11 @@
-# main links
 main:
+  - title: "PEDSnet"
+    url: http://pedsnet.org
   - title: "About"
-     url: /about/
-  - title: "Codeset search"
-     url: /codesets/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    url: /about/
+  - title: "Codesets Search"
+    url: /codesets/
+#  - title: "Study Search"
+#    url: /collection-archive/
+  - title: "Terms &amp; Privacy Policy"
+    url: /terms/
