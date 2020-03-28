@@ -4,26 +4,25 @@ permalink: /codesets/
 title: "Search the Codesets in the Codeset Library"
 author_profile: true
 ---
-<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
-<script src="d3.min.js?v=3.2.8"></script>
+{% assign mydata=site.data.temp %}
 
-<script type="text/javascript"charset="utf-8">
-    d3.text("site.data.temp", function(data) {
-        var parsedCSV = d3.csv.parseRows(data);
-
-        var container = d3.select("body")
-            .append("table")
-
-            .selectAll("tr")
-                .data(parsedCSV).enter()
-                .append("tr")
-
-            .selectAll("td")
-                .data(function(d) { return d; }).enter()
-                .append("td")
-                .text(function(d) { return d; });
-    });
-</script>
+<table>
+    <caption>Table caption</caption>
+    <thead>
+    {% for column in mydata[0] %}
+        <th>{{ column[0] }}</th>
+    {% endfor %}
+    </thead>
+    <tbody>
+    {% for row in mydata %}
+        <tr>
+        {% for cell in row %}
+            <td>{{ cell[1] }}</td>
+        {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
 <!-- <ul>
 {% for member in site.data.temp %}
   <li>
