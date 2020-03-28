@@ -4,7 +4,7 @@ permalink: /codesets/
 title: "Search the Codesets in the Codeset Library"
 author_profile: true
 ---
-{% assign mydata=site.data.temp %}
+<!-- {% assign mydata=site.data.temp %}
 
 <table>
     <caption>Table caption</caption>
@@ -22,7 +22,7 @@ author_profile: true
         </tr>
     {% endfor %}
     </tbody>
-</table>
+</table> -->
 
 <snippet>
     <content><![CDATA[
