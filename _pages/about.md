@@ -4,10 +4,6 @@ permalink: /about/
 header: 
   image: "/images/pedsnet_full_logo.png"
 ---
----
-layout: default
-title: Contact
----
 <div id="map-canvas" style="width:100%; height:650px"></div>
 
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
