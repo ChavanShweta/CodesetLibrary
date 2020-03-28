@@ -4,6 +4,15 @@ permalink: /about/
 header: 
   image: "/images/pedsnet_full_logo.png"
 ---
+<script>
+  CsvToHtmlTable.init({
+    csv_path: '/data/Health Clinics in Chicago.csv', 
+    element: 'table-container', 
+    allow_download: true,
+    csv_options: {separator: ',', delimiter: '"'},
+    datatables_options: {"paging": false}
+  });
+</script>
 <!-- <div id="map-canvas" style="width:100%; height:650px"></div>
 
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
