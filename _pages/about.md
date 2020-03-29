@@ -1,8 +1,6 @@
 ---
 title: "About"
 permalink: /about/
-<!--header: 
-  image: "/images/pedsnet_full_logo.png" !-->
 ---
 <script type="text/javascript">
     function Upload() {
