@@ -42,7 +42,7 @@ permalink: /about/
 <hr />
 <div id="dvCSV">
 </div>
-{% for post in site.posts limit: 5 %} {% include archive-single.html %} {% endfor %} {% include feature_row id="intro" type="center" %} {% include feature_row %} {% include feature_row id="feature_row2" type="left" %} {% include feature_row id="feature_row3" type="right" %} {% include feature_row id="feature_row4" type="center" %}
+
 
 <!-- <div id="map-canvas" style="width:100%; height:650px"></div>
 
@@ -86,3 +86,5 @@ permalink: /about/
 </script> -->
 
 --- 
+
+{% for post in site.posts limit: 5 %} {% include archive-single.html %} {% endfor %} {% include feature_row id="intro" type="center" %} {% include feature_row %} {% include feature_row id="feature_row2" type="left" %} {% include feature_row id="feature_row3" type="right" %} {% include feature_row id="feature_row4" type="center" %}
