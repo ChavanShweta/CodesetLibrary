@@ -1,6 +1,8 @@
 ---
 title: "About"
 permalink: /about/
+title: "About PEDSnet"
+author_profile: true
 ---
 <script type="text/javascript">
     function Upload() {
