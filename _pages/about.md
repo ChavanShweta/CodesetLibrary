@@ -1,8 +1,8 @@
 ---
 title: "About"
 permalink: /about/
-title: "About PEDSnet"
-author_profile: true
+header: 
+  image: "/images/pedsnet_full_logo.png"
 ---
 <script type="text/javascript">
     function Upload() {
@@ -42,8 +42,6 @@ author_profile: true
 <hr />
 <div id="dvCSV">
 </div>
-
-
 <!-- <div id="map-canvas" style="width:100%; height:650px"></div>
 
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
@@ -86,5 +84,4 @@ author_profile: true
 </script> -->
 
 --- 
-
 {% for post in site.posts limit: 5 %} {% include archive-single.html %} {% endfor %} {% include feature_row id="intro" type="center" %} {% include feature_row %} {% include feature_row id="feature_row2" type="left" %} {% include feature_row id="feature_row3" type="right" %} {% include feature_row id="feature_row4" type="center" %}
