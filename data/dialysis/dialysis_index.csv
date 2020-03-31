@@ -1,0 +1,4 @@
+﻿study name,objectives,study type,collaboration type,domain,curation level,last updated
+GLEAN,develop computable phenotype for glomerular disease,computable phenotype,academic,procedure,low,12/1/19
+<a href='/study_search/?myVar1=/data/dialysis_index.csv'>ARPKD</a>,develop computable phenotype for autosomal recessive polycystic kidney disease,computable phenotype,academic,procedure/ condition,high,1/20/10
+EGFR Trajectories,develop predictive models for chronic kidney disease,predictive modeling,industry,procedure/ condition,medium,3/15/20
