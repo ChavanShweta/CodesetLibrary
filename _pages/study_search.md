@@ -13,7 +13,7 @@ var v1 = qs.get("myVar1");
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.1/css/buttons.dataTables.min.css">
 
-{% assign mydata=myVar1 %}
+{% assign mydata=v1 %}
 
 <table id="example" class="display nowrap" style="width:100%">
     <caption>Codeset Library</caption>
